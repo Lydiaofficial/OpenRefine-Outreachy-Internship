@@ -1,25 +1,47 @@
 Research on Penpot Design System Documentation
 
-Penpot is an open-source design and prototyping platform that provides a comprehensive set of tools for creating and managing design systems. It offers both a self-hosted version and a free web version. Let's explore the benefits of each option:
+Penpot is an open-source design and prototyping platform that provides a comprehensive set of tools 
+for creating and managing design systems. It offers both a self-hosted version and a free web 
+version. Let's explore the benefits of each option:
 
 
 Benefits of Self-Hosting Penpot:
 
-Enhanced Security: By self-hosting Penpot, you have full control over your data and can implement security measures tailored to your organization's requirements. You can ensure that sensitive design assets and data remain within your infrastructure, minimizing the risk of unauthorized access.
+Enhanced Security: By self-hosting Penpot, you have full control over your data and can implement 
+security measures tailored to your organization's requirements. You can ensure that sensitive design 
+assets and data remain within your infrastructure, minimizing the risk of unauthorized access.
 
-Customization and Integration: Self-hosting allows you to customize Penpot to align with your organization's branding, workflows, and specific requirements. You can integrate it with other internal systems and tools, such as user management systems or version control platforms, enabling a seamless design workflow.
+Customization and Integration: Self-hosting allows you to customize Penpot to align with your organization's
+branding, workflows, and specific requirements. You can integrate it with other internal systems and tools, 
+such as user management systems or version control platforms, enabling a seamless design workflow.
 
-Performance and Scalability: Running Penpot on your own infrastructure gives you control over the hardware and network resources, allowing you to optimize performance and scalability based on your needs. You can allocate resources according to the size of your design team and the complexity of your projects, ensuring a smooth user experience.
+Performance and Scalability: Running Penpot on your own infrastructure gives you control over the hardware 
+and network resources, allowing you to optimize performance and scalability based on your needs. You can 
+allocate resources according to the size of your design team and the complexity of your projects, 
+ensuring a smooth user experience.
 
-Offline Access: Self-hosted Penpot installations provide the advantage of offline access. If your internet connection is intermittent or you need to work on design projects while disconnected, a self-hosted version allows you to access and edit your designs without interruption.
+Offline Access: Self-hosted Penpot installations provide the advantage of offline access. If your internet 
+connection is intermittent or you need to work on design projects while disconnected, a self-hosted 
+version allows you to access and edit your designs without interruption.
 
 
 Benefits of Using the Free Web Version:
 
-Easy Accessibility: The free web version of Penpot provides a quick and hassle-free way to access the platform. You don't need to set up and maintain your own infrastructure, making it suitable for small teams or individuals who want to get started quickly without the need for technical expertise.
-Collaborative Work: The web version facilitates real-time collaboration, allowing multiple designers to work together on the same project simultaneously. This feature can enhance teamwork and streamline the design process, especially for distributed teams or when working with external stakeholders.
+Easy Accessibility: The free web version of Penpot provides a quick and hassle-free way to access the platform. 
+You don't need to set up and maintain your own infrastructure, making it suitable for small teams or 
+individuals who want to get started quickly without the need for technical expertise.
 
-Regular Updates and Maintenance: By using the web version, you benefit from the continuous updates and maintenance provided by the Penpot team. They handle server management, infrastructure maintenance, and bug fixes, ensuring you always have access to the latest features and improvements.
+Collaborative Work: The web version facilitates real-time collaboration, allowing multiple designers to work 
+together on the same project simultaneously. This feature can enhance teamwork and streamline the design
+process, especially for distributed teams or when working with external stakeholders.
 
-Community and Support: The free web version enables you to connect with the broader Penpot community, including other designers, developers, and contributors. This community can offer support, share knowledge, and provide resources to help you make the most of the platform.
-You can find the google doc here : https://docs.google.com/document/d/e/2PACX-1vQD5zw6GTeWalZbfYvEq-oFxOIv_n2o4VhtPPWk9I0PQi4x5xmeHLSuAZuATor-7QLLTjC7ygEKaeug/pub
+Regular Updates and Maintenance: By using the web version, you benefit from the continuous updates and 
+maintenance provided by the Penpot team. They handle server management, infrastructure maintenance,
+and bug fixes, ensuring you always have access to the latest features and improvements.
+
+Community and Support: The free web version enables you to connect with the broader Penpot community, 
+including other designers, developers, and contributors. This community can offer support, 
+share knowledge, and provide resources to help you make the most of the platform.
+
+You can find the google doc here : https://docs.google.com/document/d/e/2PACX-1vQD5zw6GTeWalZbfYvEq
+-oFxOIv_n2o4VhtPPWk9I0PQi4x5xmeHLSuAZuATor-7QLLTjC7ygEKaeug/pub
