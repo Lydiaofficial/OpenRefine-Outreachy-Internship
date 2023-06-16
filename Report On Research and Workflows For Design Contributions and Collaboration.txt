@@ -1,0 +1,285 @@
+﻿Research On Workflows For Design Contributions and Collaboration Report.
+
+
+Task: Research workflows and tools to help define, iterate upon, and publish design contributions linked to concrete development needs (e.g. as expressed in GitHub issues).
+Main Deliverables:  
+* Research and analysis on existing workflows for design contributions and collaboration processes of the OpenRefine.
+* Research and gather best practices for design contributions and collaboration in open-source projects.
+
+
+Existing Workflows For Design Contributions in OpenRefine
+
+
+In my role as an Outreachy design contributor to OpenRefine for the past two months, I have gained valuable insights and firsthand experience regarding the workflows involved in design contributions. Through my active involvement, engagement with the OpenRefine community and working on this task, I have had the opportunity to delve into the intricacies of the design process specific to OpenRefine. Here is my report on existing workflows for design contributions in OpenRefine.
+
+
+Onboarding.
+
+
+Naturally, the onboarding process is the most important and sets the foundation for a productive and collaborative experience for anyone seeking to join and contribute to a project and especially so for entry-level designers.
+
+
+However with OpenRefine, as muchas there exists manuals, documentations and tutorials on how to navigate the software as a user, there is no existing onboarding process for designers who want to contribute to the project. The effect of this is that designers have to limit their contributions to their knowledge of the software which tends to be very little as new designers like myself struggle with understanding the technical jargons and intricacies of OpenRefine.
+
+
+The absence of a structured onboarding process therefore, makes it difficult to bridge the gap between the design and data analysis domains, and hard for designers to better understand the context and requirements of their contributions.
+
+
+Github Issues.
+
+
+The major issues I noticed concerning the structure of design related issues on Github are in regards to categorization and priority. Currently, OpenRefine uses labels like UI, UX, Design discussions to categorize issues for designers and more often than not, I have come across issues with the UI label and the description of the issue was more developer specific.
+
+
+Additionally from my experience, there happens to be no indication for priority of issues. If a design is needed urgently, or if designers need to take their time on an issue.
+
+
+Communication.
+
+
+Concerning communication and feedback, I can only speak from my perspective as an Outreachy contributor in the last two months. More often than not, design contributors are left in limbo concerning feedback on their contributions and have to wait days before eventually getting feedback and I think this can also be as a result of issue prioritization.
+
+
+Issue Tracking.
+
+
+OpenRefine does not currently use an issue tracking tool (outside of Github projects), which I got to know later during the contribution phase. However, Github Projects, although useful for managing tasks, has several limitations. It lacks advanced task management features such as task dependencies and subtasks, and has limited collaboration capabilities, which may hinder effective communication and teamwork.
+
+
+Best Practices For Design Contributions And Collaboration in Open-Source Projects.
+
+
+When examining other open source communities and their practices surrounding design contributions and collaboration, several valuable insights can be gleaned to inform and enhance the design workflow within OpenRefine. By studying these communities, I have identified a set of best practices that can be applied to foster effective design contributions and collaborative efforts. In this section, we will explore these best practices. Here are some of the communities I researched:
+
+
+Wordpress
+
+
+The most extensive part of my research was on the WordPresscommunity.  Maybe because of the extensive resources they have.
+As one of the most prominent open source communities, Wordpress  offers valuable insights into design contributions and collaboration within the context of its ecosystem.
+
+
+Onboarding
+
+
+WordPress has established a comprehensive onboarding process to welcome and support new designers who want to contribute to the project. This onboarding process includes extensive documentation, manuals, and handbooks that provide valuable resources and guidance for designers.
+
+
+The WordPress Design Handbook serves as a central repository of design guidelines, best practices, and resources. It covers various aspects of design within the WordPress ecosystem, including user experience, accessibility, visual design, and design principles. The handbook serves as a comprehensive reference for designers, ensuring a shared understanding of design standards and expectations.
+
+
+In addition to the handbook, WordPress maintains an extensive collection of documentation and manuals specifically tailored to design-related topics. These resources provide detailed instructions, tutorials, and examples that help designers understand the design workflow, tools, and technologies used within the WordPress ecosystem.
+
+
+Furthermore, WordPress actively encourages new designers to join the community and provides avenues for them to get involved. WordCamps, the community conferences organized by WordPress, often include design-related sessions, workshops, and contributor days where designers can engage, learn, and contribute alongside experienced community members. These events serve as opportunities for new designers to network, receive mentorship, and gain practical experience in contributing to the project.
+
+
+Wordpress contribution Guidelines:
+https://github.com/WordPress/gutenberg/blob/e915bed1996752fc0c7ebcd7b7cdcc7d5c2be07f/CONTRIBUTING.md
+
+
+Design Contribution Guide
+https://github.com/WordPress/gutenberg/blob/e915bed1996752fc0c7ebcd7b7cdcc7d5c2be07f/docs/contributors/design/README.md
+Make WordPress Design – A Better User Experience
+
+
+
+
+Good first issues
+Contribute to WordPress/gutenberg · GitHub
+
+
+Design team
+
+
+In WordPress, design contributions are typically coordinated through a dedicated team known as the "Design Team." This team focuses on enhancing the user experience, improving the visual design, and ensuring design consistency throughout the WordPress platform. The Design Team follows a structured workflow that promotes collaboration and contribution from community members.
+
+
+Github Issues
+
+
+WordPress utilizes a well-defined set of labels to structure their design-related GitHub issues, allowing for clear categorization, efficient collaboration, and effective tracking of design tasks. Here's an overview of the labels commonly used by the WordPress community:
+
+
+Needs Design: This label is applied to issues that require design input or expertise. It indicates that the issue needs a designer's attention to propose or implement design changes.
+
+
+Needs Design Feedback: This label is used when a design solution or proposal requires input or feedback from the design team or the wider community. It helps to gather insights and perspectives before finalizing the design direction.
+
+
+Good First Issue: This label highlights issues that are suitable for newcomers or designers who are getting started with contributing to WordPress. These issues are typically smaller in scope, well-defined, and provide an entry point for new contributors to engage with the project.
+
+
+Needs Dev: This label is used when the design work is completed, and the issue requires development or coding efforts to implement the proposed design changes.
+
+
+Status Labels: WordPress utilizes various status labels to track the progress of design-related issues. These labels, such as "In Progress," "Needs Review," or "Resolved," provide a clear indication of the current status of each issue throughout the design workflow.
+
+
+Issue Location: This label helps to identify the specific area or component of the WordPress platform where the issue is located. It aids in organizing and prioritizing design-related tasks based on the affected part of the system.
+
+
+Priority: WordPress assigns priority labels to design issues to indicate their relative importance or urgency. These labels allow the design team and other contributors to prioritize their efforts based on the project's needs and goals.
+
+
+Communication
+
+
+To facilitate collaboration and communication, the WordPress Design Team holds regular meetings, both online and in-person at WordCamps (WordPress community conferences). These meetings provide a platform for designers to discuss ongoing projects, share ideas, seek feedback, and make collective decisions. Additionally, the team maintains an active presence on communication channels such as Slack, where designers can engage in real-time discussions and receive immediate feedback.
+
+
+Also, the WordPress community values open feedback and encourages user involvement in the design process. User research, surveys, and usability testing are conducted to gather insights and validate design decisions. This inclusive approach ensures that design changes align with the needs and preferences of the WordPress user base.
+
+
+Issue tracking
+
+
+The WordPress Design Team follows a structured issue tracking workflow using tools like GitHub and Trac. Issues are created and categorized, assigned to team members, and undergo collaboration and communication for feedback and iteration. Design proposals are tested and reviewed, leading to approval and implementation. The progress is tracked and issues are closed when resolved, ensuring efficient management and accountability throughout the design process.
+
+
+Tools
+
+
+The WordPress Design Team utilizes various tools to facilitate their design workflow and issue tracking process. These tools aid in collaboration, communication, and project management. Here are some commonly used tools within the WordPress community:
+
+
+GitHub: The WordPress project hosts its code repositories on GitHub, including the WordPress core, themes, and plugins. The Design Team leverages GitHub Issues to create and track design-related issues, collaborate on design proposals, and provide feedback on design contributions.
+
+
+Trac: Trac is a project management and issue tracking tool employed by the WordPress community. It is primarily used for tracking and managing bug reports, enhancements, and feature requests related to the WordPress software. 
+
+
+Slack: The WordPress community maintains a Slack workspace where the Design Team can engage in discussions, seek feedback, and coordinate efforts with other contributors.
+
+
+Google Docs: The Design Team may employ Google Docs to collaborate on design proposals, create design guidelines, or draft documentation. Google Docs enables multiple designers to work simultaneously on a document, facilitating efficient collaboration and revision tracking.
+
+
+Figma:  The wordpress community’s main design tool is Figma which they use to create mockups, wireframes and visual assets for design contributions and proposals.
+
+
+Cal.com
+
+
+Onboarding
+
+
+Cal.com offers an onboarding process for new designers seeking to contribute to the project. The process is designed to help new designers get up to speed on the company's design standards, processes, and tools.
+The onboarding process typically includes the following steps:
+* Orientation: New designers meet with their manager and other members of the design team to learn about the company's culture, values, and goals. They also receive an overview of the design process and the tools and resources that are available to them.
+* Training: New designers participate in training sessions on design principles, typography, color theory, and other topics. They also have the opportunity to work on mock projects to practice their skills.
+* Mentorship: New designers are paired with experienced designers who can provide guidance and support. Mentors help new designers learn the ropes and identify opportunities to contribute.
+In addition to the onboarding process, cal.com also offers a variety of resources to help new designers contribute effectively. These resources include:
+* A design style guide: The style guide provides guidance on the company's design standards, such as typography, color, and spacing.
+* A design library: The design library contains a collection of assets, such as icons, illustrations, and templates, that designers can use in their work.
+* A design forum: The design forum is a space where designers can ask questions, share ideas, and get feedback from their peers.
+
+
+Issue Tracking
+
+
+
+
+Cal.com has a well-defined workflow for creating and tracking issues. The workflow is designed to ensure that issues are identified and resolved quickly and efficiently and begins with the identification of an issue. This can be done by anyone who encounters an issue, including users, engineers, or managers. Once an issue is identified, it is logged in the Linear (the task management app the company uses)
+Linear is a modern issue tracking tool that is designed to be collaborative, efficient, and easy to use. Linear allows users to create issues, assign them to team members, track their progress, and communicate about them. Linear also includes a number of features that make it easy to collaborate on issues, such as commenting, file attachments, and mentions.
+Review and Feedback
+New designers' work is regularly reviewed by their manager and mentors. This feedback helps them identify areas where they can improve and make contributions that are aligned with the company's goals.
+Open Source Design
+
+
+In my research on workflows for design contributions and collaborations in open-source projects, I received valuable feedback from Jan of the Open Source Design community. The feedback highlighted several important aspects that shape the effectiveness of design contributions within open-source projects.
+
+
+Developer Involvement
+
+
+One key observation is that open-source projects tend to be code-focused, with much of the success or failure relying on developers' involvement. To maximize the impact of design contributions, it is essential to identify which tasks developers are willing to work on. This requires understanding the specific challenges and areas of interest within the codebase. Some parts of the software may have complex and cumbersome code, while others may offer opportunities for enjoyable improvements.
+
+
+
+
+Building Trust in UX
+
+
+Another aspect emphasized is the importance of establishing trust in non-coding disciplines, such as user experience (UX) design. In some open-source communities, there may be skepticism towards non-coders or a reluctance to accept their input. However, there are also communities that value heuristic reviews, small-scale usability tests, and expert opinions. One effective way to promote better UX is through the use of interface guidelines, which align with the familiar format of guidelines that developers follow in their work.
+
+
+Clear Contribution Scope
+
+
+To prevent frustration and miscommunication, it is crucial to provide clarity on what can be worked on. Many open-source projects claim to be open for all contributions, but designers often need more specific guidance. 
+
+
+There should be clear scope of needed contributions, such as changes limited to interface copy, manuals, or icons. By setting clear expectations, designers can avoid misunderstandings and ensure that their efforts align with the project's needs.
+
+
+Issue Tracking
+
+
+The feedback also shared insights into using issue tracking platforms like Phabricator or GitHub. Suggestions were made to utilize specific tags, such as a UX tag or a UI tag, to categorize design-related issues. 
+
+
+Additionally, the feedback recommended the use of a UX issue template to structure and communicate design-related problems and proposed solutions effectively. The template included elements such as user stories, context of use, current problems, and possible solutions. This template encouraged a focus on goals, context, and problem-solving rather than prematurely suggesting specific solutions.
+
+
+
+
+Propose Actionable Workflows for Design Contributions in OpenRefine
+
+
+Efficient design contributions and collaboration workflows are essential for the growth and development of open-source projects, and OpenRefine is no exception. Through my research and analysis of the existing workflows for design contributions in open source communities, I have identified several areas that can be improved to enhance the design process and promote effective collaboration in OpenRefine. 
+
+
+These proposed workflows draw inspiration from best practices observed in other successful open-source communities, such as WordPress and Cal.com. By adopting these new workflows, OpenRefine can establish a structured onboarding process for designers, improve issue categorization and prioritization, enhance communication and feedback mechanisms, and leverage more effective task management tools. 
+
+
+These proposed workflows aim to streamline the design contribution process, foster collaboration, and empower designers to make valuable contributions to OpenRefine's development. Implementing these new workflows will not only benefit individual designers seeking to contribute but also strengthen OpenRefine as a whole by harnessing the diverse perspectives and expertise of the design community.
+
+
+Establish an Onboarding Process:[a][b][c][d]
+Create a structured onboarding process for designers joining OpenRefine. Develop a comprehensive documentation, tutorials, and resources specifically tailored to help new designers understand the project's context, design requirements, and technical aspects. Provide clear instructions on how to navigate the software, familiarize designers with the existing design patterns and challenges, and offer guidance on how to contribute effectively. A well-structured onboarding process will enable designers to quickly grasp the project's intricacies, bridge the gap between design and data analysis domains, and make meaningful contributions to OpenRefine.
+
+
+Establish a Comprehensive Design System:[e]
+Develop and maintain a comprehensive design system for OpenRefine, which encompasses design guidelines, principles, and reusable design components. A design system provides a unified and consistent approach to design, ensuring that all design contributions align with the project's visual language, usability standards, and user experience goals. The design system should cover various aspects, including typography, color palettes, iconography, spacing, and interaction patterns. By having a well-defined design system, designers will have clear guidance and resources to create cohesive and user-friendly designs, leading to a more polished and consistent user experience across OpenRefine.
+
+
+
+
+Improve Github Issue Structure:[f][g][h]
+Improve the categorization and prioritization of design-related issues on GitHub to provide better clarity and context for designers. Create a more refined set of labels specifically tailored to design tasks, such as UI, UX, and Design Feedback, to accurately categorize issues. Additionally, introduce priority labels to indicate the urgency or importance of design tasks, allowing designers to allocate their time and efforts accordingly. This enhancement will help designers identify the most critical issues, focus on high-priority tasks, and contribute to OpenRefine's design needs effectively.
+
+
+Enhance Communication and Feedback:[i]
+Establish a more efficient feedback loop for design contributions. Ensure timely and consistent feedback to designers, reducing waiting periods and increasing engagement. Consider addressing issue prioritization to expedite the feedback process and foster better collaboration between designers and the OpenRefine community.
+
+
+Explore Advanced Issue Tracking Tools:[j]
+Explore the integration of advanced issue tracking and collaboration tools, such as project management platforms or specialized design collaboration tools, to enhance the design contribution workflow. These tools can provide features like task dependencies, subtasks, progress tracking, and real-time collaboration capabilities. By utilizing such tools, designers can have a more structured and efficient workflow, enabling seamless communication, improved task management, and better collaboration among team members. This integration will enhance the overall efficiency and productivity of design contributions within OpenRefine.
+
+
+Provide Clear Contribution Scope:[k]
+Define clear guidelines and expectations for design contributions. Specify areas where designers can make meaningful contributions, such as interface copy, icons, or manuals. By establishing clear scope and expectations, designers can focus their efforts on areas aligned with the project's needs, reducing frustration and miscommunication.
+
+
+Implement a Dedicated Design Forum:[l][m]
+Introduce a dedicated design forum within the OpenRefine community to provide designers with a platform for discussions, knowledge sharing, and collaboration. This forum can serve as a central hub where designers can engage with each other, seek feedback on their contributions, share ideas, and discuss design-related topics. The forum will foster a sense of community, facilitate effective communication, and encourage collaboration among designers, resulting in improved design contributions and a more cohesive design ecosystem within OpenRefine.
+
+
+
+
+
+
+[a]Step 1. Open a section on the documentation part of the OpenRefine website, that is specific for Designers. Develop Table of Contents for that section.
+[b]Step 2. Maybe some visual aids / videos.
+[c]Step 3. Coming up with a tiered onboarding for different levels of design experience and different levels of commitment.
+[d]Most documentation can be done at the end of the internship after the individual materials like a Design System or Issue Templates are developed.
+[e]Trial with Penpot next week - if too slow or inefficient, we can switch to Figma.
+[f]Use labels inspired by Wordpress example.
+[g]Add priority management.
+[h]Create a template for UX/UI issue writing.
+[i]Share the history of the project with designers via the onboarding docs. Explain community is small but growing.
+[j]Ok to do some more research if we find another easy / popular tool. If not, we need to do better documentation around how designers can use GitHub and we can try to make Github Project more welcoming.
+[k]Scope can be hard to decide because we don't have central governance of the project - sometimes it is a bit arbitrary when one or more senior persons say what is in scope or not. But we can definitely develop a system of labels that indicate what issues are good "first issues" for design, and what are more complex ones.
+[l]We can establish a Design category in the Forum and trial it for a few weeks and gather evidence if it's working or not.
+[m]Slack is an option, but we just have to be aware messages there will disappear after a while.
